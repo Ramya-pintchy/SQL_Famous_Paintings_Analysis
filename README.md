@@ -40,19 +40,8 @@
    ```sql
    CREATE DATABASE Famous_Paintings;
 
-3. Open your choice Python editor: [I've used VScode]
-   ```sh
-   import pandas as pd
-   from sqlalchemy import create_engine
-
-   conn_string = 'postgresql://Username:user_password@host_name/Famous_paintings'
-   db = create_engine(conn_string)
-   conn = db.connect()
-
-   fi = ['Artist', 'canvas_size', 'image_link', 'museum', 'museum_hours', 'product_size', 'subject', 'work']
-   for file in fi:
-    df = pd.read_csv(f'your_file_path/{file}.csv')
-    df.to_sql(file, con=conn, if_exists='replace', index=False)
+3. Download the python file and Open your choice Python editor, : [I've used VScode]
+   ![SQL_Famous_Paintings_Analysis](load_csv_file.py) 
 
 4. Run the SQL queries in the Query window.
 
