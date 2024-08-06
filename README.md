@@ -4,7 +4,7 @@
    This project involves analyzing data on famous paintings. The analysis is performed using PostgreSQL connected to Python with pandas for data manipulation and SQL scripts for querying the database.
 
 #### Refer the schema_diagram for referenece:
-![SQL_Music_Analysis](schema_diagram.png)
+![SQL_Famous_Paintings_Analysis](Famous_Paintings.png)
 
 **LEVEL**- Intermmediate
 
