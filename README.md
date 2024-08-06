@@ -41,7 +41,7 @@
    CREATE DATABASE Famous_Paintings;
 
 3. Download the python file and Open your choice Python editor, : [I've used VScode]
-   ![SQL_Famous_Paintings_Analysis](load_csv_file.py) 
+   ![Python Script](load_csv_file.py) 
 
 4. Run the SQL queries in the Query window.
 
